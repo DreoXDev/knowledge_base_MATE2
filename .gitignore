@@ -16,3 +16,9 @@ venv/
 exports/
 tmp/
 
+# Temporary cleanup snapshots
+.cleanup_dirs_snapshot.txt
+.cleanup_files_snapshot.txt
+
+# Obsidian local files
+.trash/

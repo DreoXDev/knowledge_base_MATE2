@@ -39,3 +39,19 @@ Inventory iniziale degli asset presenti in `raw_assets/`. Questi file non sono a
 | `01_sources/exams/esame_2023_02_22.pdf` | Esame ufficiale | 5 esercizi: punti critici, Lagrange su sfera, area sfera, Green su circonferenza, campo conservativo con parametri | Alta / Integrato |
 | `01_sources/exams/esame_2022_09_24_or_27.pdf` | Esame ufficiale | 5 esercizi: punti critici, Lagrange cilindro-piano, integrale triplo su sfera, Green su triangolo, campo conservativo | Alta / Integrato |
 | `01_sources/exams/esame_2023_07_19.pdf` | Esercizi ufficiali/esame | 5 esercizi: punti critici, distanza da retta intersezione piani, integrale triplo in primo ottante, Green su quarto di ellisse, campo conservativo | Alta / Integrato |
+
+## Alias normalizzati finali
+
+| ID | Nome normalizzato | Nome originale | Tipo | Stato integrazione | Report | Note |
+|---|---|---|---|---|---|---|
+| 01 | `01_sources/official_slides/01_curve.pdf` | `raw_assets/1 - Lezione II 2022-23 SDM.pdf` | Slide ufficiali | Integrato | `02_ingestion_reports/1_lezione_II_2022_23_SDM_ingestion_report.md` | Alias finale |
+| 02 | `01_sources/official_slides/02_funzioni_due_variabili_curve_livello.pdf` | `raw_assets/2- Lezione Funzioni di due variabili e curve di livello (2).pdf` | Slide ufficiali | Integrato | `02_ingestion_reports/2_lezione_funzioni_due_variabili_curve_livello_ingestion_report.md` | Alias finale |
+| 03 | `01_sources/official_slides/03_massimi_minimi_locali.pdf` | `raw_assets/3 - Lezione sui massimi ed i minimi locali (1).pdf` | Slide ufficiali | Integrato | `02_ingestion_reports/3_lezione_massimi_minimi_locali_ingestion_report.md` | Alias finale |
+| 04 | `01_sources/official_slides/04_superfici.pdf` | `raw_assets/4 - Lezione sulle superfici.pdf` | Slide ufficiali | Integrato | `02_ingestion_reports/4_lezione_superfici_ingestion_report.md` | Alias finale |
+| 05 | `01_sources/official_slides/05_lagrange.pdf` | `raw_assets/5 - Lezione sui moltiplicatori di Lagrange.pdf` | Slide ufficiali | Integrato | `02_ingestion_reports/5_lezione_moltiplicatori_lagrange_ingestion_report.md` | Alias finale |
+| 06 | `01_sources/official_slides/06_massimi_minimi_assoluti_funzione_implicita.pdf` | `raw_assets/6 - Lezione sui massimie minimi assoluti.pdf` | Slide ufficiali | Integrato | `02_ingestion_reports/6_lezione_massimi_minimi_assoluti_ingestion_report.md` | Alias finale |
+| 07 | `01_sources/official_slides/07_integrali_linea_I_specie.pdf` | `raw_assets/7 - IntegraliDiLineaIspecie.pdf` | Slide ufficiali | Integrato | `02_ingestion_reports/7_lezione_integrali_linea_I_specie_ingestion_report.md` | Alias finale |
+| 08 | `01_sources/official_slides/08_integrali_linea_II_specie.pdf` | `raw_assets/8 - IntegraliDiLineaIIspecie.pdf` | Slide ufficiali | Integrato | `02_ingestion_reports/8_lezione_integrali_linea_II_specie_ingestion_report.md` | Alias finale |
+| 09 | `01_sources/official_slides/09_campi_conservativi_green.pdf` | `raw_assets/9 - LezioneCampiVettorialiConservativi.pdf` | Slide ufficiali | Integrato | `02_ingestion_reports/9_lezione_campi_vettoriali_conservativi_ingestion_report.md` | Alias finale |
+| 10 | `01_sources/official_slides/10_integrali_multipli.pdf` | `raw_assets/10 - Lezione integrali multipli.pdf` | Slide ufficiali | Integrato | `02_ingestion_reports/10_lezione_integrali_multipli_ingestion_report.md` | Alias finale |
+| 11 | `01_sources/official_slides/11_calcolo_vettoriale.pdf` | `raw_assets/11 - LezioneCalcoloVettoriale.pdf` | Slide ufficiali | Integrato | `02_ingestion_reports/11_lezione_calcolo_vettoriale_ingestion_report.md` | Alias finale |

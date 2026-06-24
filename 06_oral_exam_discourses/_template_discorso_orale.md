@@ -12,7 +12,7 @@ Preparare una risposta da esame orale su questo argomento.
 
 ## Versione breve
 
-TODO
+Sintesi in 4-6 frasi: definizione del tema, formula o enunciato, interpretazione geometrica, ipotesi principali, esempio rapido.
 
 ## Versione completa
 
@@ -26,7 +26,7 @@ TODO
 
 ## Dimostrazione parlata
 
-TODO
+Schema della dimostrazione o dell'idea: riduzione al caso noto, passaggio tecnico principale, ruolo delle ipotesi, conclusione.
 
 ## Frasi utili
 
@@ -44,5 +44,4 @@ TODO
 
 ## Errori da evitare
 
-- TODO
-
+- Elencare qui gli errori ricorrenti: ipotesi mancanti, segni, orientazioni, confusione tra condizioni necessarie e sufficienti.

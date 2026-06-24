@@ -15,6 +15,8 @@
 
 Alcuni PDF hanno nome file e intestazione interna non perfettamente coincidenti. In questi casi la scheda dell'esame conserva entrambi i riferimenti con nota `metadata_warning`.
 
+Vedi anche [[metadata_warnings]].
+
 ## Pattern piu' frequenti
 
 - [[pattern_index#Punti critici]]
