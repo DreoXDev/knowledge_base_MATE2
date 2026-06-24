@@ -1,5 +1,19 @@
 # TODO - Knowledge Base Matematica 2
 
+## Miglioramento discorsi orali
+
+- [x] Creare template standard per discorso orale completo.
+- [x] Creare discorsi prioritari completi.
+- [x] Creare discorsi secondari completi.
+- [x] Creare catene orali tra argomenti.
+- [x] Creare scalette da lavagna.
+- [x] Creare domande professore e trabocchetti.
+- [x] Creare ripasso rapido.
+- [x] Aggiornare indice dei discorsi orali.
+- [x] Creare mappa RAG per discorsi orali.
+- [x] Aggiornare indice RAG retrieval.
+- [ ] Verificare periodicamente a voce i discorsi prioritari con simulazione d'esame.
+
 ## Esami batch 2
 
 - [x] Copiare i tre PDF in `01_sources/exams/`.

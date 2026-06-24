@@ -12,7 +12,7 @@ Preparare una risposta da esame orale su questo argomento.
 
 ## Versione breve
 
-TODO
+Una superficie parametrizzata e' una mappa regolare $\sigma(u,v)$ da un dominio del piano allo spazio. Il prodotto vettoriale $\sigma_u \times \sigma_v$ descrive il piano tangente, la normale e l'elemento di area. La regolarita' richiede che questo prodotto non si annulli nei punti considerati.
 
 ## Versione completa
 
@@ -26,7 +26,7 @@ TODO
 
 ## Dimostrazione parlata
 
-TODO
+L'idea e' approssimare localmente la superficie con il parallelogramma generato dai vettori tangenti $\sigma_u du$ e $\sigma_v dv$. L'area elementare e' quindi $\|\sigma_u \times \sigma_v\|du\,dv$.
 
 ## Frasi utili
 
@@ -42,5 +42,6 @@ TODO
 
 ## Errori da evitare
 
-- TODO
-
+- Confondere parametrizzazione e sostegno geometrico.
+- Dimenticare la condizione $\sigma_u \times \sigma_v \ne 0$.
+- Usare una normale senza fissare orientazione.

@@ -19,6 +19,41 @@ File da consultare:
 4. `10_rag/FINAL_PROMPT_ORALE.md`
 5. `12_final_review/final_study_plan.md`
 
+## Discorsi orali completi
+
+Query tipiche:
+
+- "prepara discorso orale Green"
+- "prepara discorso orale Lagrange"
+- "prepara discorso orale Stokes"
+- "prepara discorso orale Gauss Ostrogradski"
+- "prepara discorso campi conservativi"
+- "integrali di linea orale prima specie"
+- "integrali di linea orale seconda specie"
+- "catena orale Green Stokes Gauss"
+- "domande professore orale matematica 2"
+- "trabocchetti orale matematica 2"
+- "lavagna Green"
+- "lavagna Lagrange"
+- "ripasso orale due minuti"
+
+File da consultare:
+
+1. `10_rag/RAG_ORAL_DISCOURSE_MAP.md`
+2. `06_oral_exam_discourses/00_discorsi_index.md`
+3. `06_oral_exam_discourses/00_template_discorso_orale.md`
+4. `06_oral_exam_discourses/01_discorsi_prioritari/green_discorso_completo.md`
+5. `06_oral_exam_discourses/01_discorsi_prioritari/lagrange_discorso_completo.md`
+6. `06_oral_exam_discourses/01_discorsi_prioritari/stokes_discorso_completo.md`
+7. `06_oral_exam_discourses/01_discorsi_prioritari/gauss_ostrogradski_discorso_completo.md`
+8. `06_oral_exam_discourses/01_discorsi_prioritari/campi_conservativi_discorso_completo.md`
+9. `06_oral_exam_discourses/01_discorsi_prioritari/integrali_linea_I_specie_discorso_completo.md`
+10. `06_oral_exam_discourses/01_discorsi_prioritari/integrali_linea_II_specie_discorso_completo.md`
+11. `06_oral_exam_discourses/03_catene_orali/`
+12. `06_oral_exam_discourses/04_lavagna/`
+13. `06_oral_exam_discourses/05_domande_prof/`
+14. `06_oral_exam_discourses/06_ripasso_rapido/`
+
 ## Esami ufficiali batch 1
 
 Query tipiche:

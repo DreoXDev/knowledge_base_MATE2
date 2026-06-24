@@ -12,7 +12,7 @@ Preparare una risposta da esame orale su questo argomento.
 
 ## Versione breve
 
-TODO
+La formula di Taylor per funzioni di due variabili approssima localmente una funzione tramite termini lineari e quadratici. Nei punti stazionari il termine lineare sparisce, quindi la natura del punto critico dipende dalla forma quadratica associata alla Hessiana.
 
 ## Versione completa
 
@@ -26,7 +26,7 @@ TODO
 
 ## Dimostrazione parlata
 
-TODO
+Si parte dallo sviluppo di Taylor al secondo ordine. Se $\nabla f(P)=0$, il comportamento locale e' governato da $\frac12 h^T H_f(P)h$. Se questa forma e' definita positiva si ha minimo locale, se e' definita negativa massimo locale, se e' indefinita punto di sella.
 
 ## Frasi utili
 
@@ -42,5 +42,6 @@ TODO
 
 ## Errori da evitare
 
-- TODO
-
+- Applicare il test Hessiano in punti non stazionari.
+- Concludere qualcosa quando il determinante Hessiano e' nullo senza ulteriori analisi.
+- Confondere estremi locali ed estremi assoluti.
