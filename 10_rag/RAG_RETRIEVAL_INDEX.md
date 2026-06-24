@@ -9,6 +9,16 @@ Indice operativo per il retrieval. Da aggiornare dopo ogni ingestion.
 | Discorsi orali | `06_oral_exam_discourses/` | Placeholder |
 | Domande | `09_exam_questions/` | Iniziale |
 
+## Entrypoint finali
+
+File da consultare:
+
+1. `START_HERE.md`
+2. `10_rag/RAG_THEORY_MAP.md`
+3. `10_rag/RAG_EXAM_PATTERN_MAP.md`
+4. `10_rag/FINAL_PROMPT_ORALE.md`
+5. `12_final_review/final_study_plan.md`
+
 ## Esami ufficiali batch 1
 
 Query tipiche:

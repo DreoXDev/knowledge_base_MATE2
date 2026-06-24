@@ -1,41 +1,37 @@
-# Review finale fonti ufficiali professore
+# Final Review - Knowledge Base MATE2
 
-## Stato integrazione lezioni ufficiali
+## Stato fonti ufficiali
 
-- [x] Lezione 1 integrata.
-- [x] Lezione 2 integrata.
-- [x] Lezione 3 integrata.
-- [x] Lezione 4 integrata.
-- [x] Lezione 5 integrata.
-- [x] Lezione 6 integrata.
-- [x] Lezione 7 integrata.
-- [x] Lezione 8 integrata.
-- [x] Lezione 9 integrata.
-- [x] Lezione 10 integrata.
-- [x] Lezione 11 integrata.
+- [x] 11 lezioni ufficiali integrate.
+- [x] Esami batch 1 integrati.
+- [x] Esami batch 2 integrati.
+- [x] Source inventory aggiornato.
+- [x] Ingestion report presenti.
 
-## Blocchi teorici coperti
+## Stato studio
 
-- [x] Curve.
-- [x] Funzioni di piu' variabili.
-- [x] Gradiente e superfici di livello.
-- [x] Lagrange.
-- [x] Massimi/minimi assoluti.
-- [x] Funzione implicita.
-- [x] Integrali di linea I specie.
-- [x] Integrali di linea II specie.
-- [x] Campi conservativi.
-- [x] Green.
-- [x] Integrali multipli.
-- [x] Integrali di superficie.
-- [x] Stokes.
-- [x] Gauss-Ostrogradski.
+- [x] Teoria navigabile.
+- [x] Theorem cards presenti.
+- [x] Discorsi orali presenti.
+- [x] Esercizi per topic presenti.
+- [x] Esami indicizzati.
+- [x] RAG aggiornato.
+- [x] Prompt simulatore orale pronto.
 
-## Prossima fase
+## Priorita' di studio
 
-- [ ] Consolidare discorsi orali.
-- [ ] Creare domande classiche da interrogazione.
-- [ ] Creare simulatore orale professore.
-- [ ] Creare mappa dei teoremi.
-- [ ] Creare formulario compatto.
-- [ ] Creare checklist finale pre-esame.
+1. Lagrange.
+2. Funzione implicita.
+3. Integrali di linea I/II specie.
+4. Campi conservativi e Green.
+5. Integrali multipli.
+6. Superfici, Stokes e Gauss.
+7. Esercizi ufficiali su punti critici, potenziali, Green e integrali tripli.
+
+## Prima dell'esame
+
+- [ ] Fare 2 simulazioni orali complete.
+- [ ] Ripetere tutti i discorsi prioritari.
+- [ ] Rifare almeno 1 esercizio per pattern.
+- [ ] Controllare error log.
+- [ ] Usare `FINAL_PROMPT_ORALE.md` in una nuova chat.

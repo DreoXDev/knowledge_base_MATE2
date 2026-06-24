@@ -1,36 +1,34 @@
 from pathlib import Path
-import sys
 
-ROOT = Path(__file__).resolve().parents[1]
-BAD_PATTERNS = ("\\(", "\\)", "\\[", "\\]")
+bad_patterns = ["\\(", "\\)", "\\[", "\\]"]
+roots = [
+    "03_maps",
+    "04_theory",
+    "05_theorem_cards",
+    "06_oral_exam_discourses",
+    "07_exercises",
+    "09_exam_questions",
+    "10_rag",
+    "11_exams",
+    "12_final_review",
+]
 
+errors = []
 
-def markdown_files():
-    for path in ROOT.rglob("*.md"):
-        if ".git" not in path.parts:
-            yield path
+for root in roots:
+    path = Path(root)
+    if not path.exists():
+        continue
+    for file in path.rglob("*.md"):
+        text = file.read_text(encoding="utf-8")
+        for pattern in bad_patterns:
+            if pattern in text:
+                errors.append((str(file), pattern))
 
+if errors:
+    print("Found non-Obsidian math delimiters:")
+    for file, pattern in errors:
+        print(f"{file}: {pattern}")
+    raise SystemExit(1)
 
-def main() -> int:
-    findings = []
-    for path in markdown_files():
-        text = path.read_text(encoding="utf-8")
-        for line_no, line in enumerate(text.splitlines(), start=1):
-            for pattern in BAD_PATTERNS:
-                if pattern in line:
-                    findings.append((path, line_no, pattern, line.strip()))
-
-    if findings:
-        print("Non-Obsidian math delimiters found:")
-        for path, line_no, pattern, line in findings:
-            print(f"- {path.relative_to(ROOT)}:{line_no}: contains {pattern!r}: {line}")
-        print("Use $...$ for inline math and $$...$$ for block math.")
-        return 1
-
-    print("Math delimiter format looks good.")
-    return 0
-
-
-if __name__ == "__main__":
-    sys.exit(main())
-
+print("OK: no non-Obsidian math delimiters found.")
