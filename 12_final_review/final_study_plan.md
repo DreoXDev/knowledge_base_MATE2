@@ -10,13 +10,13 @@
 
 ## Simulazioni
 
-- [ ] Simulazione orale 1: funzioni di piu' variabili -> Hessiana -> Lagrange.
-- [ ] Simulazione orale 2: integrali di linea -> campi conservativi -> Green.
-- [ ] Simulazione orale 3: superfici -> flusso -> Stokes/Gauss.
+- [x] Simulazione orale 1 pronta: funzioni di piu' variabili -> Hessiana -> Lagrange. Vedi [[AI_Oral_Exam/Simulazioni_finali_MATE2]].
+- [x] Simulazione orale 2 pronta: integrali di linea -> campi conservativi -> Green. Vedi [[AI_Oral_Exam/Simulazioni_finali_MATE2]].
+- [x] Simulazione orale 3 pronta: superfici -> flusso -> Stokes/Gauss. Vedi [[AI_Oral_Exam/Simulazioni_finali_MATE2]].
 
 ## Ultimo ripasso
 
-- [ ] Leggere [[09_exam_questions/checklist_orale]].
-- [ ] Leggere [[07_exercises/error_log]].
-- [ ] Rifare un esercizio per pattern da [[11_exams/pattern_index]].
-- [ ] Usare [[10_rag/FINAL_PROMPT_ORALE]] per una simulazione.
+- [x] Materiale pronto: [[09_exam_questions/checklist_orale]].
+- [x] Materiale pronto: [[07_exercises/error_log]].
+- [x] Materiale pronto: esercizi per pattern in [[11_exams/pattern_index]].
+- [x] Materiale pronto: [[10_rag/FINAL_PROMPT_ORALE]] e [[AI_Oral_Exam/Simulazioni_finali_MATE2]].

@@ -28,4 +28,4 @@ Gli appelli confermano che l'esame e' molto coerente con le lezioni ufficiali. M
 
 ## Punti da verificare
 
-- `needs_verification`: esame 22 novembre 2022, esercizio 5. Il campo riportato nel piano contiene una possibile ambiguita' nella terza componente; non va corretta senza controllo visivo del PDF.
+- Verifica successiva: esame 22 novembre 2022, esercizio 5 ricontrollato sul PDF sorgente tramite estrazione testuale; il campo e' coerente con il potenziale registrato in `11_exams/by_year/2022_11_22.md`.

@@ -36,6 +36,16 @@ Query tipiche:
 - "lavagna Green"
 - "lavagna Lagrange"
 - "ripasso orale due minuti"
+- "discorso prioritario Green"
+- "Green disegno lavagna"
+- "Lagrange disegno gradienti paralleli"
+- "campi conservativi campo angolare disegno"
+- "integrale linea prima specie disegno"
+- "integrale linea seconda specie tangente"
+- "Stokes superficie bordo normale"
+- "Gauss normale uscente"
+- "glossario discorsi prioritari"
+- "link teoria discorsi prioritari"
 
 File da consultare:
 
@@ -53,6 +63,11 @@ File da consultare:
 12. `06_oral_exam_discourses/04_lavagna/`
 13. `06_oral_exam_discourses/05_domande_prof/`
 14. `06_oral_exam_discourses/06_ripasso_rapido/`
+15. `06_oral_exam_discourses/01_discorsi_prioritari/00_prioritari_index.md`
+16. `06_oral_exam_discourses/01_discorsi_prioritari/00_mappa_visuale_prioritari.md`
+17. `06_oral_exam_discourses/01_discorsi_prioritari/00_glossario_prioritari.md`
+18. `06_oral_exam_discourses/01_discorsi_prioritari/00_link_teoria_prioritari.md`
+19. `06_oral_exam_discourses/01_discorsi_prioritari/00_disegni_lavagna_prioritari.md`
 
 ## Esami ufficiali batch 1
 

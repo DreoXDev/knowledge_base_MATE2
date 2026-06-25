@@ -1,5 +1,18 @@
 # Visual Index
 
+## Discorsi orali prioritari
+
+| Figura | Fonte | Concetto | File locale |
+|---|---|---|---|
+| Green: orientazione positiva | Lezione 9, slide 20 | Dominio a sinistra e frontiere orientate | `08_visuals/figures/oral_green_orientazione_positiva.png` |
+| Green: cancellazione bordi | Lezione 9, slide 26 | Bordi interni percorsi in versi opposti | `08_visuals/figures/oral_green_cancellazione_bordi.png` |
+| Lagrange: gradienti paralleli | Lezione 5, slide 5 | Curve di livello tangenti al vincolo | `08_visuals/figures/oral_lagrange_gradienti_paralleli.png` |
+| Linea I specie: somme | Lezione 7, slide 2 | Somme $\sum f(P_i)\Delta\ell_i$ | `08_visuals/figures/oral_linea_I_somme.png` |
+| Linea II specie: tangente | Lezione 8, slide 9 | Campo e componente tangenziale | `08_visuals/figures/oral_linea_II_tangente.png` |
+| Flusso su superficie | Lezione 11, slide 15 | Componente normale del campo | `08_visuals/figures/oral_flusso_superficie.png` |
+| Stokes: superficie e bordo | Lezione 11, slide 23 | Orientazione compatibile bordo-normale | `08_visuals/figures/oral_stokes_superficie_bordo.png` |
+| Gauss: normale uscente | Lezione 11, slide 42 | Superficie chiusa e normale uscente | `08_visuals/figures/oral_gauss_normale_uscente.png` |
+
 ## Integrali multipli
 
 | Figura | Fonte | Concetto | File locale |

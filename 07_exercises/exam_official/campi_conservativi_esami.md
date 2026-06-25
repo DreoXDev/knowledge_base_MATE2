@@ -90,13 +90,11 @@ F_3=
 \frac{2yz}{x^2+z^2+1}
 $$
 
-### Nota
+### Nota di verifica
 
-`needs_verification`: controllare il testo ufficiale, perche' la terza componente puo' contenere un'ambiguita' o un refuso.
+Verificato sul PDF sorgente `01_sources/exams/esame_2022_11_22.pdf` con estrazione testuale: la terza componente e' coerente con il potenziale candidato sotto.
 
-### Potenziale candidato
-
-Se il testo e' coerente con il pattern atteso:
+### Potenziale
 
 $$
 U=

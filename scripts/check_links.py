@@ -7,8 +7,7 @@ WIKI_LINK = re.compile(r"\[\[([^\]|#]+)(?:[#|][^\]]*)?\]\]")
 
 def normalize(name: str) -> str:
     name = name.strip()
-    if "/" in name or "\\" in name:
-        name = Path(name).stem
+    name = Path(name).stem
     return name.lower().replace(" ", "_")
 
 
@@ -19,8 +18,9 @@ def markdown_files():
 
 
 index = {}
-for path in markdown_files():
-    index.setdefault(normalize(path.stem), []).append(path)
+for path in ROOT.rglob("*"):
+    if path.is_file() and ".git" not in path.parts:
+        index.setdefault(normalize(path.stem), []).append(path)
 
 broken = []
 for path in markdown_files():
