@@ -29,7 +29,7 @@
 
 ### Possibile testo da verificare
 
-- Esame 22/11/2022, esercizio 5: controllare attentamente la terza componente del campo, perche' dal testo puo' sembrare poco simmetrica.
+- Esame 22/11/2022, esercizio 5: terza componente ricontrollata sul PDF sorgente tramite estrazione testuale; usare il potenziale registrato in `11_exams/by_year/2022_11_22.md`.
 
 ## Errori ricorrenti negli esami batch 2
 

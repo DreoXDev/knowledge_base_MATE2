@@ -16,6 +16,10 @@ Sezione operativa per preparare l'orale di Matematica 2. I file `*_discorso_comp
 - `01_discorsi_prioritari/integrali_linea_I_specie_discorso_completo.md`
 - `01_discorsi_prioritari/integrali_linea_II_specie_discorso_completo.md`
 
+## Discorsi completi da appunti human
+
+- `../03_discorsi_orali/Campi conservativi - discorso orale completo.md` - discorso completo per esame orale su definizione, potenziale, integrali di linea, curve chiuse, costruzione del potenziale e condizioni di irrotazionalita'.
+
 ## Discorsi secondari
 
 - `02_discorsi_secondari/funzione_implicita_discorso_completo.md`

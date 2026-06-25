@@ -11,7 +11,7 @@ Vedi anche `02_ingestion_reports/_template_ingestion_report.md`.
 
 ## Contenuto principale
 
-TODO
+Sintesi dei concetti, risultati, esempi e figure principali emersi dalla fonte.
 
 ## Aggiornamenti da fare
 
@@ -21,4 +21,3 @@ TODO
 - [ ] RAG index
 - [ ] Domande orali
 - [ ] Figure/grafici
-

@@ -33,7 +33,31 @@ $f$ e' differenziabile in $P$.
 
 ## Dimostrazione
 
-TODO: la slide rimanda alle note del corso per la dimostrazione. Non completare senza fonte ufficiale.
+Idea della dimostrazione nel caso di due variabili. Per $P=(x_0,y_0)$ si scrive l'incremento come somma di due incrementi lungo direzioni coordinate:
+
+$$
+f(x,y)-f(x_0,y_0)
+=
+[f(x,y)-f(x_0,y)]+[f(x_0,y)-f(x_0,y_0)].
+$$
+
+Applicando il teorema di Lagrange in una variabile a ciascun termine:
+
+$$
+f(x,y)-f(x_0,y_0)
+=
+f_x(\xi,y)(x-x_0)+f_y(x_0,\eta)(y-y_0).
+$$
+
+Per la continuita' delle derivate parziali in $P$, i coefficienti si avvicinano a $f_x(P)$ e $f_y(P)$. Quindi l'incremento si scrive come parte lineare piu' errore infinitesimo:
+
+$$
+f(x,y)-f(P)
+=
+f_x(P)(x-x_0)+f_y(P)(y-y_0)+o(\|(x,y)-P\|).
+$$
+
+Questo e' proprio il criterio di differenziabilita'. In piu' variabili il ragionamento si ripete spezzando l'incremento lungo le direzioni coordinate.
 
 ## Punti delicati
 
@@ -44,4 +68,3 @@ TODO: la slide rimanda alle note del corso per la dimostrazione. Non completare 
 
 - [[differenziabilita]]
 - [[derivate_parziali]]
-

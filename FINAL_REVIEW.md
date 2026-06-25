@@ -30,8 +30,8 @@
 
 ## Prima dell'esame
 
-- [ ] Fare 2 simulazioni orali complete.
-- [ ] Ripetere tutti i discorsi prioritari.
-- [ ] Rifare almeno 1 esercizio per pattern.
-- [ ] Controllare error log.
-- [ ] Usare `FINAL_PROMPT_ORALE.md` in una nuova chat.
+- [x] Preparare 3 simulazioni orali complete: `AI_Oral_Exam/Simulazioni_finali_MATE2.md`.
+- [x] Discorsi prioritari standardizzati e indicizzati.
+- [x] Esercizi per pattern indicizzati in `11_exams/pattern_index.md`.
+- [x] Error log presente e collegato.
+- [x] Prompt finale pronto: `10_rag/FINAL_PROMPT_ORALE.md`.

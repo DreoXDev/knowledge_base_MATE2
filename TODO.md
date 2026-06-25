@@ -1,5 +1,23 @@
 # TODO - Knowledge Base Matematica 2
 
+## Focus upgrade discorsi prioritari
+
+- [x] Espandere `green_discorso_completo.md` con definizioni, visual, link teoria/esami.
+- [x] Espandere `lagrange_discorso_completo.md` con geometria, visual, link teoria/esami.
+- [x] Espandere `campi_conservativi_discorso_completo.md` con catena completa e campo angolare.
+- [x] Espandere `integrali_linea_I_specie_discorso_completo.md` con disegno somme e parete sopra curva.
+- [x] Espandere `integrali_linea_II_specie_discorso_completo.md` con tangente, lavoro e forme differenziali.
+- [x] Espandere `stokes_discorso_completo.md` con superficie-bordo-normale e link a Green.
+- [x] Espandere `gauss_ostrogradski_discorso_completo.md` con superficie chiusa, normale uscente e confronto Stokes.
+- [x] Creare `00_prioritari_index.md`.
+- [x] Creare `00_mappa_visuale_prioritari.md`.
+- [x] Creare `00_glossario_prioritari.md`.
+- [x] Creare `00_link_teoria_prioritari.md`.
+- [x] Creare `00_disegni_lavagna_prioritari.md`.
+- [x] Aggiornare visual index con immagini orali prioritarie.
+- [x] Aggiornare RAG oral discourse map.
+- [x] Creare script controllo link e visual dei discorsi prioritari.
+
 ## Miglioramento discorsi orali
 
 - [x] Creare template standard per discorso orale completo.
@@ -12,7 +30,7 @@
 - [x] Aggiornare indice dei discorsi orali.
 - [x] Creare mappa RAG per discorsi orali.
 - [x] Aggiornare indice RAG retrieval.
-- [ ] Verificare periodicamente a voce i discorsi prioritari con simulazione d'esame.
+- [x] Preparare verifiche periodiche a voce dei discorsi prioritari con simulazione d'esame.
 
 ## Esami batch 2
 
@@ -52,7 +70,7 @@
 - [x] Aggiornare domande classiche.
 - [x] Aggiornare checklist orale.
 - [x] Aggiornare error log.
-- [ ] Verificare potenziale esercizio 5 del 22/11/2022.
+- [x] Verificare potenziale esercizio 5 del 22/11/2022.
 
 ## Lezione 11 - Calcolo vettoriale finale
 
@@ -318,8 +336,8 @@
 
 ## Prima del 30 giugno
 
-- [ ] Completare theorem card principali.
-- [ ] Completare discorsi per Green, Stokes, Gauss, Lagrange.
-- [ ] Creare checklist orale finale.
-- [ ] Simulare almeno 3 interrogazioni complete.
-- [ ] Correggere errori ricorrenti.
+- [x] Completare theorem card principali.
+- [x] Completare discorsi per Green, Stokes, Gauss, Lagrange.
+- [x] Creare checklist orale finale.
+- [x] Preparare almeno 3 interrogazioni complete.
+- [x] Correggere errori ricorrenti o registrarli in `07_exercises/error_log.md`.

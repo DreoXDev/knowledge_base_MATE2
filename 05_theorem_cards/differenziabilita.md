@@ -33,10 +33,25 @@ Se una funzione e' ben approssimata da una funzione affine con errore piu' picco
 
 ## Dimostrazione
 
-TODO: la slide riporta il risultato come corollario; completare solo se la dimostrazione e' richiesta o presente nelle note ufficiali.
+La differenziabilita' in $\bar{x}$ significa che:
+
+$$
+f(x)=f(\bar{x})+L(x-\bar{x})+o(\|x-\bar{x}\|)
+$$
+
+per una applicazione lineare $L$. Quindi:
+
+$$
+f(x)-f(\bar{x})=L(x-\bar{x})+o(\|x-\bar{x}\|).
+$$
+
+Quando $x\to\bar{x}$, il termine lineare tende a zero e anche il termine $o(\|x-\bar{x}\|)$ tende a zero. Dunque:
+
+$$
+\lim_{x\to\bar{x}}f(x)=f(\bar{x}).
+$$
 
 ## Collegamenti
 
 - [[differenziabilita]]
 - [[intorni_limiti_continuita]]
-

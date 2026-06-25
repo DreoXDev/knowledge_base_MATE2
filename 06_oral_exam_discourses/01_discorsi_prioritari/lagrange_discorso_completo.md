@@ -1,131 +1,311 @@
 # Discorso orale - Moltiplicatori di Lagrange
 
-## Stato
+## Stato e navigazione rapida
 
-- Priorita' orale: altissima
-- Fonte principale: `01_sources/official_slides/05_lagrange.pdf`
-- Note collegate: `04_theory/05_massimi_minimi_e_lagrange/lagrange_un_vincolo_superfici.md`, `04_theory/05_massimi_minimi_e_lagrange/lagrange_due_vincoli.md`
-- Esercizi collegati: `07_exercises/exam_official/lagrange_esami.md`
+- Priorita' orale: altissima.
+- Stato: master file potenziato.
+- Fonti: `01_sources/official_slides/05_lagrange.pdf`.
+- Teoria base: [[lagrange_un_vincolo_curve]], [[lagrange_un_vincolo_superfici]], [[lagrange_due_vincoli]], [[massimi_minimi_assoluti]], [[funzione_implicita]].
+- Discorsi collegati: [[massimi_minimi_discorso_completo]], [[funzione_implicita_discorso_completo]], [[curve_superfici_discorso_completo]].
+- Lavagna rapida: `06_oral_exam_discourses/04_lavagna/lavagna_lagrange.md`.
+
+## 0. Mappa del discorso
+
+1. Distinguo ottimizzazione libera e vincolata.
+2. Spiego curva/superficie di livello e gradiente normale.
+3. Enuncio il caso a un vincolo.
+4. Generalizzo a due vincoli.
+5. Dico che Lagrange produce candidati, non conclusioni automatiche.
+6. Collego a Weierstrass e funzione implicita.
 
 ## 1. Obiettivo del discorso
 
-Spiegare Lagrange come condizione necessaria per trovare candidati a estremi vincolati. L'idea geometrica e' che, nel punto di estremo, la funzione non puo' variare lungo le direzioni tangenti al vincolo.
+Mostrare che in un estremo vincolato regolare la funzione non varia lungo le direzioni ammissibili, quindi il gradiente di $f$ deve stare nello spazio normale al vincolo.
 
-## 2. Versione da 30 secondi
+## Tempo stimato
 
-Con un vincolo $g=0$, se $P$ e' un punto regolare di estremo vincolato, allora:
+- Versione essenziale: 8 minuti
+- Versione completa con dimostrazione geometrica: 13 minuti
+- Estensioni/domande su due vincoli, Weierstrass e punti non regolari: 5 minuti
+
+Totale realistico: 13-18 minuti.
+
+## Discorso principale
+
+> "Partirei distinguendo il problema libero dal problema vincolato. In un problema libero posso cercare punti con $\nabla f=0$, ma con un vincolo non tutte le direzioni sono ammissibili."
+
+> "Nel punto di estremo vincolato la funzione non deve variare lungo le direzioni tangenti al vincolo. Quindi il gradiente di $f$ deve essere normale allo spazio tangente."
+
+"gradiente di f uguale lambda gradiente di g"
 
 $$
-\nabla f(P)=\lambda\nabla g(P)
+\nabla f(P)=\lambda\nabla g(P),\qquad g(P)=0.
+$$
+
+> "Questa e' una condizione necessaria: Lagrange produce candidati. Per concludere massimo o minimo devo poi confrontare i valori e controllare eventuali bordi o punti non regolari."
+
+## 2. Prerequisiti da sapere
+
+- Gradiente e curve di livello: [[gradiente_derivata_direzionale_discorso]].
+- Estremi assoluti e Weierstrass: [[massimi_minimi_discorso_completo]], [[weierstrass_massimi_minimi_assoluti]].
+- Teorema della funzione implicita: [[funzione_implicita_discorso_completo]].
+- Superfici e normali: [[curve_superfici_discorso_completo]].
+
+## 3. Definizioni richiamate
+
+- Vincolo: equazione $g=0$ o sistema $g_1=g_2=0$.
+- Vincolo regolare: gradiente del vincolo non nullo, o gradienti dei vincoli indipendenti.
+- Gradiente: direzione di massima crescita, normale alle superfici di livello.
+- Spazio tangente: direzioni ammesse dal vincolo.
+- Spazio normale: direzioni ortogonali allo spazio tangente.
+- Moltiplicatore: coefficiente nella combinazione lineare dei gradienti dei vincoli.
+- Candidato: punto che soddisfa le condizioni necessarie.
+
+## 4. Versione da 30 secondi
+
+Se $P$ e' un estremo vincolato regolare di $f$ con vincolo $g=0$, allora:
+
+$$
+\nabla f(P)=\lambda\nabla g(P),\qquad g(P)=0.
 $$
 
 Con due vincoli:
 
 $$
-\nabla f=\lambda\nabla g_1+\mu\nabla g_2
+\nabla f(P)=\lambda\nabla g_1(P)+\mu\nabla g_2(P).
 $$
 
-Poi si confrontano i valori sui candidati.
+Queste sono condizioni necessarie: poi devo confrontare i valori e controllare bordi o punti non regolari.
 
-## 3. Versione completa da orale
+## 5. Copione da dire quasi a memoria
 
-Quando ottimizzo $f$ su un vincolo, non devo imporre $\nabla f=0$ come nel caso libero. Devo imporre che la derivata di $f$ sia nulla lungo le direzioni ammesse dal vincolo. Siccome il gradiente e' normale alle superfici di livello, nel caso di un vincolo regolare la normale a $f$ deve essere parallela alla normale del vincolo. Da qui nasce $\nabla f=\lambda\nabla g$.
+"Nel problema vincolato non posso imporre semplicemente $\nabla f=0$, perche' non tutte le direzioni sono ammissibili. In un estremo vincolato la derivata di $f$ deve essere nulla lungo ogni direzione tangente al vincolo. Quindi $\nabla f$ e' ortogonale allo spazio tangente. Ma anche il gradiente del vincolo e' normale al vincolo: per un vincolo regolare ottengo $\nabla f=\lambda\nabla g$. Con due vincoli lo spazio normale e' generato da $\nabla g_1$ e $\nabla g_2$."
 
-## 4. Enunciato formale
+## 6. Enunciato formale / definizione formale
 
 Un vincolo:
 
 $$
-\nabla f=\lambda\nabla g,\qquad g=0
+\nabla f(P)=\lambda\nabla g(P),\qquad g(P)=0,\qquad \nabla g(P)\ne 0.
 $$
 
 Due vincoli:
 
 $$
-\nabla f=\lambda\nabla g_1+\mu\nabla g_2,\qquad g_1=0,\quad g_2=0
+\nabla f(P)=\lambda\nabla g_1(P)+\mu\nabla g_2(P),\qquad g_1(P)=g_2(P)=0,
 $$
 
-## 5. Dimostrazione / idea di dimostrazione
+con $\nabla g_1(P)$ e $\nabla g_2(P)$ indipendenti.
 
-### Idea intuitiva
+## 7. Spiegazione geometrica o intuitiva
 
-Nel caso di una curva vincolo, le direzioni ammesse sono tangenti al vincolo. In un estremo vincolato la derivata direzionale di $f$ lungo ogni tangente e' nulla, quindi $\nabla f$ e' ortogonale a tutte le tangenti. Ma anche $\nabla g$ e' ortogonale al vincolo. Quindi i due gradienti sono paralleli.
+Nel piano, il vincolo $g=0$ e' una curva. In un punto di massimo o minimo vincolato, una curva di livello di $f$ tocca il vincolo senza attraversarlo: le due curve sono tangenti e quindi i loro gradienti, normali alle curve, sono paralleli.
 
-Per due vincoli in $\mathbb{R}^3$, la curva ammissibile e' intersezione di due superfici: lo spazio normale e' generato da $\nabla g_1$ e $\nabla g_2$.
+## Moduli aggiuntivi se il prof lascia continuare
 
-## 6. Rappresentazione grafica / intuizione geometrica
+### Modulo A - Dimostrazione da esame
 
-Disegnare curve di livello di $f$ tangenti alla curva vincolo. Il punto di estremo e' dove la curva di livello "tocca" il vincolo senza attraversarlo.
+### 8.1 Versione breve
 
-Figure utili:
+Prendo una curva regolare $\gamma(t)$ contenuta nel vincolo e passante per $P$. La funzione $f(\gamma(t))$ ha estremo in $t_0$, quindi:
+
+$$
+\frac{d}{dt}f(\gamma(t_0))=\nabla f(P)\cdot\gamma'(t_0)=0.
+$$
+
+Allora $\nabla f(P)$ e' ortogonale a tutte le tangenti ammissibili, quindi appartiene allo spazio normale.
+
+### 8.2 Versione completa
+
+Per un vincolo regolare, il teorema della funzione implicita garantisce localmente una curva o superficie regolare di livello. Lo spazio tangente e' il nucleo della derivata del vincolo. Se $\nabla f$ e' nullo su tutte le direzioni tangenti, allora e' nel complemento normale generato da $\nabla g$. Nel caso di due vincoli, il tangente e' l'intersezione dei nuclei e il normale e' generato da $\nabla g_1,\nabla g_2$.
+
+### 8.3 Dove il professore puo' interrompere
+
+- "Lagrange da' condizioni necessarie o sufficienti?"
+- "Perche' serve la regolarita' del vincolo?"
+- "Che cosa succede se il vincolo ha bordo?"
+- "Come colleghi Lagrange alla funzione implicita?"
+
+## 9. Rappresentazione grafica
+
+### 9.1 Disegno minimo da lavagna
+
+Disegna una curva vincolo $g=0$. Disegna alcune curve di livello di $f$. Nel punto di estremo fai vedere una curva di livello tangente al vincolo. Disegna $\nabla f$ e $\nabla g$ normali e paralleli.
+
+### 9.2 Disegno completo
+
+Per due vincoli, disegna due superfici $g_1=0$ e $g_2=0$ che si intersecano lungo una curva. Il vettore $\nabla f$ deve stare nel piano normale generato da $\nabla g_1$ e $\nabla g_2$.
+
+### 9.3 Figure ufficiali collegate
+
+- `08_visuals/figures/oral_lagrange_gradienti_paralleli.png`
 - `08_visuals/figures/lezione_5_slide_05_gradiente_curva_livello.png`
 - `08_visuals/figures/lezione_5_slide_19_gradiente_superficie_livello.png`
+- `08_visuals/figures/lezione_5_slide_34_due_vincoli.png`
 
-## 7. Cosa scrivere alla lavagna
+### 9.4 Link a visualizzazioni
 
-### Un vincolo
+- `08_visuals/visual_index.md`, sezione "Moltiplicatori di Lagrange".
+
+## 10. Cosa scrivere alla lavagna
+
+### 10.1 Lavagna corta
 
 $$
-\nabla f=\lambda\nabla g,\qquad g=0
+\nabla f=\lambda\nabla g,\qquad g=0.
 $$
 
-### Due vincoli
-
 $$
-\nabla f=\lambda\nabla g_1+\mu\nabla g_2,\qquad g_1=0,\quad g_2=0
+\nabla f=\lambda\nabla g_1+\mu\nabla g_2,\qquad g_1=g_2=0.
 $$
 
-Poi disegno curve di livello e vincolo.
+### 10.2 Lavagna completa
 
-## 8. Cosa dire a voce
+1. Disegno livelli di $f$ e vincolo.
+2. Scrivo "derivate tangenziali nulle".
+3. Scrivo il sistema di Lagrange.
+4. Scrivo "candidati -> confronto valori".
 
-"Lagrange non mi garantisce automaticamente massimo o minimo: mi fornisce candidati. Per gli estremi assoluti devo usare compattezza, confrontare i valori e controllare eventuali bordi o punti non regolari."
+### 10.3 Frasi da dire mentre scrivo
 
-## 9. Esempi da fare
+- "Il gradiente e' normale alle curve di livello."
+- "Il vincolo regolare ha uno spazio tangente ben definito."
+- "Lagrange non conclude massimo/minimo: produce candidati."
 
-- Funzione lineare su sfera: il massimo sta nella direzione del vettore dei coefficienti.
-- Massimo di $xyz$ con $x+y+z=1$: candidato $x=y=z=\frac{1}{3}$.
-- Distanza da retta intersezione di piani: si puo' ridurre o usare due vincoli.
+## 11. Esempio principale da fare
 
-## 10. Terminologia corretta
+Massimizzare $f=ax+by+cz$ su $x^2+y^2+z^2=R^2$.
 
-Usare: vincolo regolare, gradiente normale, candidato, estremo vincolato, compattezza.
+$$
+\nabla f=(a,b,c),\qquad \nabla g=(2x,2y,2z).
+$$
 
-Evitare: "Lagrange trova il massimo" senza dire che trova candidati.
+Il punto di massimo e':
 
-## 11. Domande possibili del professore
+$$
+R\frac{(a,b,c)}{\sqrt{a^2+b^2+c^2}},
+$$
 
-- Perche' i gradienti sono paralleli?
-- Che cosa succede se $\nabla g=0$?
-- Lagrange da' condizioni sufficienti?
-- Come si usa con due vincoli?
-- Come si collega a Weierstrass?
+e il massimo vale:
 
-## 12. Follow-up e trabocchetti
+$$
+R\sqrt{a^2+b^2+c^2}.
+$$
 
-- Se il dominio ha bordo, bisogna controllarlo.
-- Se il vincolo non e' regolare, Lagrange puo' non applicarsi.
-- Con due vincoli servono due moltiplicatori.
+Il minimo e' l'opposto.
 
-## 13. Collegamenti con altri argomenti
+## 12. Altri esempi utili
 
-- [[weierstrass_discorso]]
+- Massimo di $xyz$ con $x+y+z=1$.
+- Distanza punto-retta o punto-piano.
+- Due vincoli: intersezione di superfici.
+- Frontiera di dominio chiuso: studio interno, bordo e confronto.
+
+## 13. Terminologia corretta del professore
+
+### Termini da usare
+
+- vincolo regolare;
+- moltiplicatore di Lagrange;
+- candidato;
+- direzione tangente;
+- spazio normale;
+- condizione necessaria;
+- compattezza.
+
+### Frasi corrette da dire
+
+- "Il metodo fornisce candidati, poi confronto i valori."
+- "La regolarita' serve per avere un tangente ben definito."
+- "Con due vincoli il gradiente di $f$ sta nello span dei gradienti dei vincoli."
+
+### Termini/frasi da evitare
+
+- "Lagrange trova il massimo" senza confronto.
+- "Devo imporre $\nabla f=0$" in un problema vincolato.
+- "Il vincolo non regolare non importa."
+
+## 14. Domande possibili del professore
+
+- Lagrange da' condizioni necessarie o sufficienti?
+- Perche' serve regolarita' del vincolo?
+- Che succede se il vincolo ha bordo?
+- Perche' compare una combinazione lineare con due vincoli?
+- Come colleghi Lagrange al teorema della funzione implicita?
+
+## 15. Follow-up e trabocchetti
+
+- Se $\nabla g=0$, il metodo puo' non applicarsi.
+- Se il dominio e' compatto, Weierstrass garantisce esistenza, ma non identifica i punti.
+- Se c'e' bordo, va studiato separatamente.
+- Con due vincoli bisogna controllare indipendenza dei gradienti.
+
+## Collegamenti utili nella KB
+
+- [[massimi_minimi_discorso_completo]]: estremi assoluti e confronto valori.
+- [[funzione_implicita_discorso_completo]]: regolarita' del vincolo.
+- [[curve_superfici_discorso_completo]]: tangenti e normali.
+- [[weierstrass_massimi_minimi_assoluti]]: esistenza su compatti.
+
+## 17. Link a teoria, theorem cards, esercizi, esami
+
+### Teoria
+
+- [[lagrange_un_vincolo_curve]]
+- [[lagrange_un_vincolo_superfici]]
+- [[lagrange_due_vincoli]]
+- [[massimi_minimi_assoluti]]
+- [[funzione_implicita]]
+- `04_theory/05_massimi_minimi_e_lagrange/lagrange_un_vincolo_superfici.md`
+- `04_theory/05_massimi_minimi_e_lagrange/lagrange_due_vincoli.md`
+
+### Theorem cards
+
+- [[lagrange]]
+- [[lagrange_un_vincolo_superfici]]
+- [[lagrange_due_vincoli]]
+- [[weierstrass_massimi_minimi_assoluti]]
+
+### Discorsi collegati
+
 - [[massimi_minimi_discorso_completo]]
 - [[funzione_implicita_discorso_completo]]
+- [[curve_superfici_discorso_completo]]
 
-## 14. Errori da evitare
+### Esercizi
 
-- Imporre $\nabla f=0$ in un problema vincolato.
+- [[lagrange_esami]]
+- [[lagrange_ottimizzazione_vincolata]]
+- [[massimi_minimi_assoluti]]
+
+### Esami ufficiali
+
+- [[2023_04_13]]
+- [[2022_07_14]]
+- [[2022_11_22]]
+- [[2023_02_22]]
+- [[2022_09_24_or_27]]
+
+### Figure / visual
+
+- `08_visuals/figures/oral_lagrange_gradienti_paralleli.png`
+- `08_visuals/figures/lezione_5_slide_34_due_vincoli.png`
+
+## 18. Errori da evitare
+
 - Non aggiungere il vincolo al sistema.
 - Non confrontare i valori finali.
+- Trattare condizioni necessarie come sufficienti.
+- Ignorare punti non regolari.
 
-## 15. Mini ripasso finale
+## 19. Mini ripasso finale
 
-Lagrange: in un estremo vincolato la derivata lungo le tangenti al vincolo e' nulla. Quindi $\nabla f$ appartiene allo spazio normale del vincolo. Con un vincolo e' parallelo a $\nabla g$; con due vincoli e' combinazione di $\nabla g_1,\nabla g_2$.
+Lagrange = estremo vincolato regolare -> derivata nulla lungo le tangenti -> gradiente di $f$ nello spazio normale. Produce candidati; la conclusione richiede confronto e controllo dei casi esclusi.
 
-## 16. Checklist personale
+## 20. Checklist personale
 
-- [ ] So spiegare l'intuizione geometrica.
-- [ ] So scrivere uno e due vincoli.
-- [ ] So dire che non e' sufficiente.
-- [ ] So fare esempio su sfera.
+- [ ] So disegnare livelli tangenti al vincolo.
+- [ ] So spiegare uno e due vincoli.
+- [ ] So dire "necessaria, non sufficiente".
+- [ ] So collegare a Weierstrass.
+- [ ] So fare l'esempio della funzione lineare sulla sfera.
