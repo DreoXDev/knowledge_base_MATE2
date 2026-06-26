@@ -42,6 +42,8 @@ Query tipiche:
 - "campi conservativi campo angolare disegno"
 - "integrale linea prima specie disegno"
 - "integrale linea seconda specie tangente"
+- "integrali doppi per strati"
+- "integrali doppi per fili"
 - "Stokes superficie bordo normale"
 - "Gauss normale uscente"
 - "glossario discorsi prioritari"
@@ -59,15 +61,17 @@ File da consultare:
 8. `06_oral_exam_discourses/01_discorsi_prioritari/campi_conservativi_discorso_completo.md`
 9. `06_oral_exam_discourses/01_discorsi_prioritari/integrali_linea_I_specie_discorso_completo.md`
 10. `06_oral_exam_discourses/01_discorsi_prioritari/integrali_linea_II_specie_discorso_completo.md`
-11. `06_oral_exam_discourses/03_catene_orali/`
-12. `06_oral_exam_discourses/04_lavagna/`
-13. `06_oral_exam_discourses/05_domande_prof/`
-14. `06_oral_exam_discourses/06_ripasso_rapido/`
-15. `06_oral_exam_discourses/01_discorsi_prioritari/00_prioritari_index.md`
-16. `06_oral_exam_discourses/01_discorsi_prioritari/00_mappa_visuale_prioritari.md`
-17. `06_oral_exam_discourses/01_discorsi_prioritari/00_glossario_prioritari.md`
-18. `06_oral_exam_discourses/01_discorsi_prioritari/00_link_teoria_prioritari.md`
-19. `06_oral_exam_discourses/01_discorsi_prioritari/00_disegni_lavagna_prioritari.md`
+11. `06_oral_exam_discourses/01_discorsi_prioritari/integrali_doppi_strati_discorso_completo.md`
+12. `06_oral_exam_discourses/01_discorsi_prioritari/integrali_doppi_fili_discorso_completo.md`
+13. `06_oral_exam_discourses/03_catene_orali/`
+14. `06_oral_exam_discourses/04_lavagna/`
+15. `06_oral_exam_discourses/05_domande_prof/`
+16. `06_oral_exam_discourses/06_ripasso_rapido/`
+17. `06_oral_exam_discourses/01_discorsi_prioritari/00_prioritari_index.md`
+18. `06_oral_exam_discourses/01_discorsi_prioritari/00_mappa_visuale_prioritari.md`
+19. `06_oral_exam_discourses/01_discorsi_prioritari/00_glossario_prioritari.md`
+20. `06_oral_exam_discourses/01_discorsi_prioritari/00_link_teoria_prioritari.md`
+21. `06_oral_exam_discourses/01_discorsi_prioritari/00_disegni_lavagna_prioritari.md`
 
 ## Esami ufficiali batch 1
 

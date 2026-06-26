@@ -195,6 +195,20 @@ Emisfero superiore con bordo circolare: usando Stokes si puo' sostituire l'emisf
 - Se inverti la normale, devi invertire il bordo.
 - Il rotore nullo porta circuitazione nulla sui bordi considerati.
 
+## Immagini / visualizzazioni utili
+
+![[oral_stokes_superficie_bordo.png]]
+
+- Figura principale: superficie, bordo, normale e verso compatibile.
+
+![[lezione_11_slide_23_stokes_piano.png]]
+
+- Utile per ricordare il collegamento con Green come caso piano.
+
+![[lezione_11_slide_32_stokes_emisfero.png]]
+
+- Serve per l'esempio in cui si cambia superficie mantenendo lo stesso bordo.
+
 ## Collegamenti utili nella KB
 
 - [[green_discorso_completo]]: caso piano.

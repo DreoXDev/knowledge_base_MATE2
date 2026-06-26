@@ -224,6 +224,20 @@ $$
 - La normale interna di un buco punta verso il centro del buco, non verso l'esterno geometrico della sfera interna.
 - Le singolarita' interne vanno controllate.
 
+## Immagini / visualizzazioni utili
+
+![[oral_gauss_normale_uscente.png]]
+
+- Immagine principale per ricordare che in Gauss la normale e' uscente dal volume.
+
+![[lezione_11_slide_42_normale_sfera.png]]
+
+- Utile per visualizzare la normale sulla sfera e l'esempio classico con $F=(x,y,z)$.
+
+![[lezione_11_slide_35_regioni_semplici.png]]
+
+- Serve per spiegare l'idea della dimostrazione per domini semplici e poi per suddivisione.
+
 ## Collegamenti utili nella KB
 
 - [[stokes_discorso_completo]]: confronto tra teoremi integrali.

@@ -765,6 +765,20 @@ Collegamenti utili:
 - [[teorema_fondamentale_calcolo_integrale|Teorema fondamentale del calcolo integrale]]: chiude la dimostrazione trasformando l'integrale di una derivata in una differenza di valori.
 - [[derivazione_funzione_composta|Derivazione della funzione composta]]: spiega il passaggio $\frac{d}{dt}U(\gamma(t))=\nabla U(\gamma(t))\cdot\gamma'(t)$.
 
+## Immagini / visualizzazioni utili
+
+![[lezione_8_slide_09_campo_circonferenza_vettori.png]]
+
+- Utile per parlare del campo angolare e del ruolo del dominio bucato.
+
+![[lezione_9_slide_06_segmento_dominio_aperto.png]]
+
+- Serve nella costruzione del potenziale tramite segmenti piccoli dentro il dominio.
+
+![[lezione_9_slide_13_irrotazionalita.png]]
+
+- Aiuta a ricordare le condizioni di irrotazionalita' come derivate incrociate.
+
 ## 15. Versione discorso continuo da imparare
 
 ### 15.1 Introduzione

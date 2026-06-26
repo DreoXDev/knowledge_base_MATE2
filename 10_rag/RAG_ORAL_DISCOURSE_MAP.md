@@ -23,6 +23,8 @@ Mappa di retrieval per preparare risposte orali complete di Matematica 2.
 | "campi conservativi discorso orale" | `06_oral_exam_discourses/01_discorsi_prioritari/campi_conservativi_discorso_completo.md` |
 | "integrali di linea prima specie orale" | `06_oral_exam_discourses/01_discorsi_prioritari/integrali_linea_I_specie_discorso_completo.md` |
 | "integrali di linea seconda specie orale" | `06_oral_exam_discourses/01_discorsi_prioritari/integrali_linea_II_specie_discorso_completo.md` |
+| "integrali doppi per strati orale" | `06_oral_exam_discourses/01_discorsi_prioritari/integrali_doppi_strati_discorso_completo.md` |
+| "integrali doppi per fili orale" | `06_oral_exam_discourses/01_discorsi_prioritari/integrali_doppi_fili_discorso_completo.md` |
 
 ## Discorsi prioritari potenziati
 
@@ -34,6 +36,8 @@ Mappa di retrieval per preparare risposte orali complete di Matematica 2.
 | Campi conservativi campo angolare | `06_oral_exam_discourses/01_discorsi_prioritari/campi_conservativi_discorso_completo.md` | `04_theory/03_potenziale_e_campi_conservativi/campi_conservativi.md` | `08_visuals/figures/lezione_8_slide_09_campo_circonferenza_vettori.png` |
 | Integrale linea prima specie disegno | `06_oral_exam_discourses/01_discorsi_prioritari/integrali_linea_I_specie_discorso_completo.md` | `04_theory/01_curve_e_integrali_di_linea/integrali_linea_I_specie.md` | `08_visuals/figures/oral_linea_I_somme.png` |
 | Integrale linea seconda specie tangente | `06_oral_exam_discourses/01_discorsi_prioritari/integrali_linea_II_specie_discorso_completo.md` | `04_theory/01_curve_e_integrali_di_linea/integrali_linea_II_specie.md` | `08_visuals/figures/oral_linea_II_tangente.png` |
+| Integrali doppi per strati | `06_oral_exam_discourses/01_discorsi_prioritari/integrali_doppi_strati_discorso_completo.md` | `04_theory/08_integrali_multipli/integrali_iterati.md` | `08_visuals/figures/lezione_10_slide_08_suddivisione_dominio.png` |
+| Integrali doppi per fili | `06_oral_exam_discourses/01_discorsi_prioritari/integrali_doppi_fili_discorso_completo.md` | `04_theory/08_integrali_multipli/integrali_iterati.md` | `08_visuals/figures/lezione_10_slide_36_integrazione_fili.png` |
 | Stokes orale orientazione | `06_oral_exam_discourses/01_discorsi_prioritari/stokes_discorso_completo.md` | `04_theory/06_teoremi_integrali/formula_stokes.md` | `08_visuals/figures/oral_stokes_superficie_bordo.png` |
 | Gauss orale normale uscente | `06_oral_exam_discourses/01_discorsi_prioritari/gauss_ostrogradski_discorso_completo.md` | `04_theory/06_teoremi_integrali/formula_gauss_ostrogradski.md` | `08_visuals/figures/oral_gauss_normale_uscente.png` |
 | Glossario discorsi prioritari | `06_oral_exam_discourses/01_discorsi_prioritari/00_glossario_prioritari.md` | `06_oral_exam_discourses/01_discorsi_prioritari/00_link_teoria_prioritari.md` | `06_oral_exam_discourses/01_discorsi_prioritari/00_mappa_visuale_prioritari.md` |

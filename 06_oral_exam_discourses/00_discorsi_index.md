@@ -15,6 +15,8 @@ Sezione operativa per preparare l'orale di Matematica 2. I file `*_discorso_comp
 - `01_discorsi_prioritari/campi_conservativi_discorso_completo.md`
 - `01_discorsi_prioritari/integrali_linea_I_specie_discorso_completo.md`
 - `01_discorsi_prioritari/integrali_linea_II_specie_discorso_completo.md`
+- `01_discorsi_prioritari/integrali_doppi_strati_discorso_completo.md`
+- `01_discorsi_prioritari/integrali_doppi_fili_discorso_completo.md`
 
 ## Discorsi completi da appunti human
 

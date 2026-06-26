@@ -241,6 +241,20 @@ $$
 - In I specie il verso non cambia il segno.
 - Se la curva non e' regolare a tratti, la formula va trattata con cautela.
 
+## Immagini / visualizzazioni utili
+
+![[oral_linea_I_somme.png]]
+
+- Mostra l'idea delle somme $f(P_i)\Delta\ell_i$: e' la figura piu' utile per partire dal significato dell'integrale.
+
+![[lezione_7_slide_04_ascissa_curvilinea.png]]
+
+- Serve per collegare $d\ell$ alla lunghezza percorsa lungo la curva.
+
+![[lezione_7_slide_09_area.png]]
+
+- Utile per ricordare l'interpretazione come area di una parete verticale sopra la curva.
+
 ## Collegamenti utili nella KB
 
 - [[integrali_linea_II_specie_discorso_completo]]: confronto strutturale.

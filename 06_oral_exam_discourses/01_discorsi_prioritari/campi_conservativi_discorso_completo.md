@@ -243,6 +243,20 @@ Da $(0,0)$ a $(1,1)$ il lavoro vale $U(1,1)-U(0,0)=2$.
 - Non controllare il dominio prima di applicare Poincare'.
 - Confondere circuitazione nulla con flusso nullo.
 
+## Immagini / visualizzazioni utili
+
+![[lezione_8_slide_09_campo_circonferenza_vettori.png]]
+
+- Utile per discutere il campo angolare e il fatto che il dominio bucato puo' impedire un potenziale globale.
+
+![[lezione_9_slide_06_segmento_dominio_aperto.png]]
+
+- Serve nella costruzione del potenziale: piccoli segmenti orizzontali/verticali devono restare nel dominio.
+
+![[lezione_9_slide_13_irrotazionalita.png]]
+
+- Aiuta a ricordare le condizioni di irrotazionalita' e il passaggio dalle derivate incrociate.
+
 ## Collegamenti utili nella KB
 
 - [[integrali_linea_II_specie_discorso_completo]]: lavoro del campo.

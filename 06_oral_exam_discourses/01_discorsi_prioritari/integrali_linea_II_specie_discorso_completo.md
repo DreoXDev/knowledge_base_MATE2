@@ -242,6 +242,20 @@ $$
 - La componente normale non fa lavoro.
 - Se $F=\nabla U$, non serve parametrizzare il cammino.
 
+## Immagini / visualizzazioni utili
+
+![[oral_linea_II_tangente.png]]
+
+- Mostra curva orientata, tangente e componente del campo: e' la figura chiave per spiegare il lavoro.
+
+![[lezione_8_slide_09_campo_circonferenza_vettori.png]]
+
+- Utile per vedere un campo vettoriale lungo una curva e parlare di circuitazione.
+
+![[lezione_8_slide_10_campo_normalizzato.png]]
+
+- Aiuta a distinguere direzione tangente, verso di percorrenza e contributo del campo.
+
 ## Collegamenti utili nella KB
 
 - [[campi_conservativi_discorso_completo]]: potenziale e indipendenza dal cammino.

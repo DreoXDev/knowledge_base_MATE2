@@ -240,6 +240,20 @@ Il minimo e' l'opposto.
 - Se c'e' bordo, va studiato separatamente.
 - Con due vincoli bisogna controllare indipendenza dei gradienti.
 
+## Immagini / visualizzazioni utili
+
+![[oral_lagrange_gradienti_paralleli.png]]
+
+- Figura principale: mostra vincolo, curve di livello e parallelismo tra $\nabla f$ e $\nabla g$ nel punto candidato.
+
+![[lezione_5_slide_05_gradiente_curva_livello.png]]
+
+- Serve per richiamare che il gradiente e' normale alle curve di livello.
+
+![[lezione_5_slide_34_due_vincoli.png]]
+
+- Utile se il professore chiede il caso con due vincoli e lo spazio normale generato da due gradienti.
+
 ## Collegamenti utili nella KB
 
 - [[massimi_minimi_discorso_completo]]: estremi assoluti e confronto valori.

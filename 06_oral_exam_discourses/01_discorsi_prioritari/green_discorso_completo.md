@@ -248,6 +248,20 @@ $$
 - Nei domini con buchi l'orientazione va descritta con "dominio a sinistra", non solo "antioraria".
 - $Q_x-P_y=0$ non basta sempre per dire conservativo se il dominio non e' semplicemente connesso.
 
+## Immagini / visualizzazioni utili
+
+![[oral_green_orientazione_positiva.png]]
+
+- Serve per fissare l'orientazione positiva: mentre percorro il bordo, il dominio resta alla sinistra.
+
+![[oral_green_cancellazione_bordi.png]]
+
+- Visualizza l'idea della dimostrazione: i bordi interni vengono percorsi in versi opposti e si cancellano.
+
+![[lezione_9_slide_33_parametrizzazione_triangolo.png]]
+
+- Utile per un esempio concreto su dominio triangolare e per ricordare che Green richiede una curva chiusa orientata.
+
 ## Collegamenti utili nella KB
 
 - [[stokes_discorso_completo]]: generalizzazione a superfici nello spazio.
